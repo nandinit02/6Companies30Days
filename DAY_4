@@ -1,0 +1,79 @@
+Ques: 7
+
+int lastPosition(int n, int m, int k)
+{
+    m--;
+    if((m+k)%n==0){
+        return n;
+    }
+    return (m+k)%n;
+}
+
+Ques: 6
+
+
+class Solution {
+public:
+    
+    
+    
+    string gcdOfStrings(string str1, string str2) {
+        
+       int len1 = str1.size();
+    int len2 = str2.size();
+    
+    
+    if(str1 + str2 == str2 + str1){
+        int a = gcd(len1, len2);
+        return str1.substr(0, a);
+    }
+    
+    return "";
+    }
+};
+
+Ques 4:
+
+class Solution {
+public:
+    
+    
+    
+    string gcdOfStrings(string str1, string str2) {
+        
+       int len1 = str1.size();
+    int len2 = str2.size();
+    
+    
+    if(str1 + str2 == str2 + str1){
+        int a = gcd(len1, len2);
+        return str1.substr(0, a);
+    }
+    
+    return "";
+    }
+};
+
+Ques 5:
+
+class Solution {
+public:
+    
+    
+    
+    string gcdOfStrings(string str1, string str2) {
+        
+       int len1 = str1.size();
+    int len2 = str2.size();
+    
+    
+    if(str1 + str2 == str2 + str1){
+        int a = gcd(len1, len2);
+        return str1.substr(0, a);
+    }
+    
+    return "";
+    }
+};
+
+
